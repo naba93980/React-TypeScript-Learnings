@@ -1,0 +1,2 @@
+use type when building application &
+interfaces while building libraries
