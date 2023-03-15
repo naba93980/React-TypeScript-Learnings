@@ -1,9 +1,4 @@
-type PersonProps = {
-    name: {
-        first: string,
-        last: string
-    }
-}
+import { PersonProps } from '../types/Person.types';
 
 export default function Person(props: PersonProps) {
     return (

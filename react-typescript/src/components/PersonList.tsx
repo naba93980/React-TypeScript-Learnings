@@ -1,10 +1,7 @@
-type name = {
-    first: string,
-    last: string
-}
+import { Name } from '../types/Person.types';
 
 type PersonListProps = {
-    names: name[]
+    names: Name[]
 }
 
 export default function PersonList(props: PersonListProps) {
