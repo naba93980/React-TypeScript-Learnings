@@ -1,2 +1,3 @@
 use type when building application &
 interfaces while building libraries
+types in react are for those components that has states and props
