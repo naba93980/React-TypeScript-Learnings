@@ -8,6 +8,7 @@ import Profile from './components/auth/Profile';
 import Logger from './components/generics/Logger';
 import { RandomNumber } from './components/restriction/RandomNumber';
 import { Toast } from './components/templateLiterals/Toast';
+import CustomComponent from './components/extractProps/CustomComponent';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
       <Logger/>
       <RandomNumber value={50} isNegative />
       <Toast position='center-bottom'/>
+      <CustomComponent isLoggedIn messageCount={10} name='naba'/>
     </div>
   );
 }
