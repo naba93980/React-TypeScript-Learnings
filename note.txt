@@ -1,3 +1,23 @@
 use type when building application &
 interfaces while building libraries
 types in react are for those components that has states and props
+
+https://www.freecodecamp.org/news/build-strongly-typed-polymorphic-components-with-react-and-typescript/#what-are-polymorphic-components
+
+
+React Typescript course:
+
+Basic & Advanced Props                                         
+Events & Styles                                                         
+useState                                                                    
+useReducer                                                              
+Context API                                                             
+useRef                                                                      
+Class components        
+Component as props           
+Generics
+Restricting props
+Template literals & Exclude
+Wrapping HTML & Omit
+Extracting component prop types
+Polymorphic components
