@@ -9,6 +9,8 @@ import Logger from './components/generics/Logger';
 import { RandomNumber } from './components/restriction/RandomNumber';
 import { Toast } from './components/templateLiterals/Toast';
 import CustomComponent from './components/extractProps/CustomComponent';
+import CustomButton from './components/html/Button';
+import TextLogger from './components/polymorphic/TextLogger';
 
 function App() {
 
@@ -33,7 +35,7 @@ function App() {
   ]
 
   return (
-    <div>
+    <div className='App'>
       <Greet name="naba" isLoggedIn={true} />
       <Person name={personName} />
       <PersonList names={nameList} />
@@ -43,6 +45,8 @@ function App() {
       <RandomNumber value={50} isNegative />
       <Toast position='center-bottom'/>
       <CustomComponent isLoggedIn messageCount={10} name='naba'/>
+      <CustomButton variant='primary' onClick={()=>console.log('clicked')}>custom button</CustomButton>
+      <TextLogger/>
     </div>
   );
 }
